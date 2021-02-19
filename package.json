@@ -1,0 +1,33 @@
+{
+    "name": "odoo-theme",
+    "author": {
+        "name": "Leonardo Alonso",
+        "email": "leonardoalonsososa@gmail.com"
+    },
+    "displayName": "Odoo Theme",
+    "description": "A vscode theme based on odoo colors",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.53.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Odoo dark theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Odoo dark theme-color-theme.json"
+            }
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/leonardoAlonso/Odoo-vscode-theme"
+    },
+    "bugs": {
+        "url": "https://github.com/leonardoAlonso/Odoo-vscode-theme/issues"
+    },
+    "icon": "./images/odoo_logo_medium.png"
+}
